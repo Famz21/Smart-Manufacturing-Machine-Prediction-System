@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    environtment {
+    environment {
         DOCKER_HUB_REPO = "viraz21/gitops-project"
         DOCKER_HUB_CREDENTIALS_ID = "gitops-dockerhub-token"
     }
