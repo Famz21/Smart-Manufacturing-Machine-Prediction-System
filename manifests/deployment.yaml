@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: mlops-app
-        image: 
+        image: viraz21/gitops-project:latest
         ports:
         - containerPort: 5000
